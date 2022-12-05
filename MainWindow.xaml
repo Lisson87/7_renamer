@@ -1,0 +1,81 @@
+﻿<Window x:Class="_7_renamer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_7_renamer"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="550" Width="500" AllowDrop="True" >
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="100"/>
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <Button Grid.Row="0" Content="1" Drop="TextBox_Drop"/>
+        <Button Grid.Row="1" Content="2" Drop="TextBox_Drop"/>
+        <Button Grid.Row="2" Content="3" Drop="TextBox_Drop"/>
+        <Button Grid.Row="3" Content="4" Drop="TextBox_Drop"/>
+        <Button Grid.Row="4" Content="5" Drop="TextBox_Drop"/>
+        <Button Grid.Row="5" Content="6" Drop="TextBox_Drop"/>
+        <Button Grid.Row="6" Content="7" Drop="TextBox_Drop"/>
+        <Button Grid.Row="7" Content="8" Drop="TextBox_Drop"/>
+        <Button Grid.Row="8" Content="9" Drop="TextBox_Drop"/>
+        <Button Grid.Row="9" Content="10" Drop="TextBox_Drop"/>
+        <Button Grid.Row="10" Content="11" Drop="TextBox_Drop"/>
+        <Button Grid.Row="11" Content="12" Drop="TextBox_Drop"/>
+        <Button Grid.Row="12" Content="13" Drop="TextBox_Drop"/>
+        <Button Grid.Row="13" Content="14" Drop="TextBox_Drop"/>
+        <Button Grid.Row="14" Content="15" Drop="TextBox_Drop"/>
+        <Button Grid.Row="15" Content="извлечь номер" Drop="Button_Drop"/>
+        <TextBox Name ="Tbx1" Grid.Column="1" 
+                 Text="1 Схема благоустройства дворовой территории - " TextWrapping="Wrap" MaxLines="1" />
+        <TextBox Name ="Tbx2" Grid.Column="1" Grid.Row="1" 
+                 Text="2 Скан-копия схемы благоустройства дворовой территории-(подписанная) " TextWrapping="Wrap" MaxLines="1" AllowDrop="True" Drop="TextBox_Drop" />
+        <TextBox Name ="Tbx3" Grid.Column="1" Grid.Row="2" 
+                 Text="3 Схема благоустройства(dwg) " TextWrapping="Wrap" MaxLines="1" AllowDrop="True"/>
+        <TextBox Name ="Tbx4" Grid.Column="1" Grid.Row="3" 
+                 Text="4 Ситуационный план двора - " TextWrapping="Wrap" MaxLines="1" AllowDrop="True"/>
+        <TextBox Name ="Tbx5" Grid.Column="1" Grid.Row="4" 
+                 Text="5 Спецификация ИТОГ-(pdf) " TextWrapping="Wrap" MaxLines="1" AllowDrop="True"/>
+        <TextBox Name ="Tbx6" Grid.Column="1" Grid.Row="5" 
+                 Text="6 Спецификация ИТОГ (excel) " TextWrapping="Wrap" MaxLines="1" AllowDrop="True"/>
+        <TextBox Name ="Tbx7" Grid.Column="1" Grid.Row="6" 
+                 Text="7 Скан-копия спецификации-(подписанная) " TextWrapping="Wrap" MaxLines="1" AllowDrop="True"/>
+        <TextBox Name ="Tbx8" Grid.Column="1" Grid.Row="7" 
+                 Text="8 Предварительная схема благоустройства - " TextWrapping="Wrap" MaxLines="1" AllowDrop="True"/>
+        <TextBox Name ="Tbx9" Grid.Column="1" Grid.Row="8" 
+                 Text="9 Предварительная схема благоустройства-(подписанная) " TextWrapping="Wrap" MaxLines="1" AllowDrop="True"/>
+        <TextBox Name ="Tbx10" Grid.Column="1" Grid.Row="9" 
+                 Text="10 Схема БТИ - " TextWrapping="Wrap" MaxLines="1" AllowDrop="True"/>
+        <TextBox Name ="Tbx11" Grid.Column="1" Grid.Row="10" 
+                 Text="11 Схема БТИ демонтаж - " TextWrapping="Wrap" MaxLines="1" AllowDrop="True"/>
+        <TextBox Name ="Tbx12" Grid.Column="1" Grid.Row="11" 
+                 Text="12 Фотоотчет БТИ - " TextWrapping="Wrap" MaxLines="1" AllowDrop="True"/>
+        <TextBox Name ="Tbx13" Grid.Column="1" Grid.Row="12" 
+                 Text="13 Скан-копия подписанного протокола - " TextWrapping="Wrap" MaxLines="1" AllowDrop="True"/>
+        <TextBox Name ="Tbx14" Grid.Column="1" Grid.Row="13" 
+                 Text="14 Скан-копия подписанного протокола переноса - " TextWrapping="Wrap" MaxLines="1" AllowDrop="True"/>
+        <TextBox Name ="Tbx15" Grid.Column="1" Grid.Row="14" 
+                 Text="15 Скрин согласования документации в программе BPIUM - " TextWrapping="Wrap" MaxLines="1" AllowDrop="True"/>
+        <TextBox Name ="Tbx16" Grid.Column="1" Grid.Row="15" Text="1300008027" TextWrapping="Wrap" AllowDrop="True" MaxLines="1" ToolTip="инвентарный номер"/>
+
+    </Grid>
+</Window>
